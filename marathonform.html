@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marathon 5k</title>
+    <meta name="description" content="description" />
+    <meta name="author" content="author" />
+    <meta name="keywords" content="keywords" />
+    <link rel="stylesheet" href="./stylesheet.css" type="text/css" />
+    <style type="text/css">
+        .body {
+            width: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>This is my Marathon Form</h1>
+    <form action="">
+    <div>
+        <!--this is the first + last name form-->
+            <label for="first">First Name</label>
+            <input type="text" id="first" name="firstname" required>
+            <label for="last">Last Name</label>
+            <input type="text" id="last" name="firstname" required>
+    </div>
+    </form>
+    
+
+    <h4>race registration</h4>
+    <!--this is the radio button section-->
+    <div>
+        <input type="radio" name="race" id="funrun" value="funrun"> <!--radio buttons here fo selcting race type-->
+        <label for="funrun">Fun Run 5K</label>
+    </div>
+    <div></div>
+    <input type="radio" name="race" id="Half" value="Half"> <!--radio buttons here fo selcting race type-->
+    <label for="funrun">Half marathon</label>
+    </div>
+    <div>
+        <input type="radio" name="race" id="Full" value="Full"> <!--radio buttons here fo selcting race type-->
+        <label for="funrun">Full Marathon</label>
+    </div>
+
+    <div> <!--this is the email and password form-->
+        <label for="email">EMAIL</label>
+        <input type="email" name="email" id="email" required>
+        <label for="password">PASSWORD</label>
+        <input type="password" name="password" id="password" required>
+    </div>
+
+    <div> 
+    <!--this is theage group selector-->
+        <label for="division">Select age group</label>
+        <select name="division" id="division">
+            <option value="kids">Under 18</option>
+            <option value="young adults">18 - 35</option>
+            <option value="adults">35 - 50</option>
+            <option value="seniors">50 - 70</option>
+        </select>
+    </div>
+    
+        <button>Register</button>
+   
+
+
+
+
+
+
+
+    <marquee>Colt steel is a coding boss</marquee>
+
+</body>
